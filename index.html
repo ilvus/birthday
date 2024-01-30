@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Sixtyfour">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">💕 Happy Birthday 💕</div>
+        <img src="source/you&me1.jpg" alt="you&me1" class="left-side-image">
+        <img src="source/you&me2.jpg" alt="you&me2" class="right-side-image">
+        <img src="source/you&me3.jpg" alt="you&me3" class="left-side-image2">
+        <img src="source/you&me4.jpg" alt="you&me4" class="right-side-image2">
+        
+
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <!-- <strong>Dear Person.</strong> -->
+                        <p>
+                            Жаным моя, этот день настал. Тебе сегодня исполняется 21 год. Поздравляю тебя с твоим днем рождения. Ты у меня большая молодец, продолжаешь идти по жизни не останавливаясь, большими шагами стремишься вперед. За этот год ты сделала очень многое, сделала много важных решений для себя. Желаю тебе всего самого лучшего, всего самого теплого, вкусного и приятного в жизни. Хочу продолжать смотреть как ты сияешь, хочу идти дальше за этими теплыми лучами света от тебя. Знай что все твои близкие и родные любят и верят в тебя. Знают что ты получишь то что заслужила. Ты у меня умница делаешь то что тебе нравится, и делаешь это с большим успехом. Я горжусь тобой! &nbsp;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160Твой любимый xxx   
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <div class="grid-item"></div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+
+        
+    </script>
+</body>
+</html>
